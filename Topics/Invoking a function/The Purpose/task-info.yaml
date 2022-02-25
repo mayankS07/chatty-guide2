@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: It is a matter of good taste, nothing more. But manners make the man.
+- text: It saves a great deal of time and effort.
+- text: That is definitely a feature of Python syntax.
+- text: Who says it makes sense?
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5892#comment
+status: Solved
+record: -1

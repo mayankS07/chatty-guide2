@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Wait till the user presses any key
+- text: 'Print <code>Say "hi": </code> and wait till the user presses Enter'
+- text: Wait for the user to write <code>"hi"</code>
+- text: Print <code>"hi"</code> and continue executing the code
+- text: Wait 10 seconds and continue executing the code
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5914#comment
+status: Solved
+record: -1
+custom_name: What to expect?

@@ -1,0 +1,19 @@
+<h2>Code + comment = ?</h2>
+<html>
+ <head></head>
+ <body>
+  <p>Given a line of code and comment, please combine them and write them down as they would look like in a real program. Please make the comment <strong>inline</strong>.</p> 
+  <p><strong>Code</strong>: <code class="language-python">word = word.replace("\u0301", "")</code></p> 
+  <p><strong>Comment</strong>: <code class="language-python">delete stress symbols from the word</code></p> 
+  <p><button class="btn-sm btn-outline-secondary" onclick="getElementById('hint-338').style.display='inline'"> Hint </button> </p>
+  <div id="hint-338" style="display:none;">
+   According to PEP 8, there should be 
+   <strong>two spaces</strong> between the end of the code and the hash mark and 
+   <strong>one space </strong>after a hash mark to separate it from the comment. The structure of the resulting line should be similar to this one below:
+   <p></p> 
+   <pre><code class="language-python">print("It's code")  # It's a comment!</code></pre> 
+   <p></p>
+  </div>
+  <p></p>
+ </body>
+</html>

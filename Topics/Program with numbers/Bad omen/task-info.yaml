@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: The step value should be a floating-point number.
+- text: The step value is extremely large.
+- text: One of the variables hasn't been defined.
+- text: The compound assignment operator should be <code>=+</code>.
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9354#comment
+status: Solved
+record: -1

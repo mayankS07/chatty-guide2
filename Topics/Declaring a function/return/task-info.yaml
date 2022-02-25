@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: after the function call, it <b>returns</b> all the arguments
+- text: <b>return</b> invokes the function
+- text: <b>return</b> sends back a value from the function
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5903#comment
+status: Solved
+record: -1

@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Reads some data from the user and returns it in a program as a float number.
+- text: Reads some data from the user and returns it in a program as an integer number.
+- text: Reads some data from the user and returns it in a program as a string.
+- text: Reads some data from the user and prints it.
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6804#comment
+status: Solved
+record: -1

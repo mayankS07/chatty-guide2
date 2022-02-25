@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: 2
+- text: 3
+- text: 4
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5905#comment
+status: Solved
+record: -1

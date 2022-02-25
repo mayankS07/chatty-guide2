@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: 'function_Name(parameter1, parameter2, ...):'
+- text: 'func fUnCtIoN_nAmE(parameter1):'
+- text: 'def Function_name():'
+- text: def FunctionName;
+- text: 'def function_name(parameter1, parameter2, ...):'
+- text: def function_name(parameter1, parameter2, ...)
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11489#comment
+status: Solved
+record: -1

@@ -1,0 +1,5 @@
+x = int(input())
+y = int(input())
+Sum = (x, y)
+x = sum(Sum)
+print(x)

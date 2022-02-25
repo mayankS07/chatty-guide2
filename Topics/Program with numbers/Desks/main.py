@@ -1,0 +1,7 @@
+a = abs(int(input()))
+b = abs(int(input()))
+c = abs(int(input()))
+g1 = (a // 2) + (a % 2)
+g2 = (b // 2) + (b % 2)
+g3 = (c // 2) + (c % 2)
+print(g1 + g2 + g3)

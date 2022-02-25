@@ -1,0 +1,17 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    def closest_higher_mod_5(x):
+        remainder = x % 5
+        if remainder == 0:
+            return x
+        return "I don't know :("
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5907#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Wed, 23 Feb 2022 06:56:22 UTC
+record: -1

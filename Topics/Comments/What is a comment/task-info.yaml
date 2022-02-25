@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: // This one may be the right choice
+- text: '{ I must be the comment you are looking for }'
+- text: '&lt;!-- The most Pythonic comment of all time --&gt;'
+- text: /* Perhaps, this is your comment */
+- text: '# It is unlikely that I am a comment'
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6795#comment
+status: Solved
+record: -1
+custom_name: What is a comment?
